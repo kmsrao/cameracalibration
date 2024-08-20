@@ -1,0 +1,1 @@
+C:\Users\Dell\Documents\GitHub\cameracalibration\CameraCalibration\CameraCalibration.csproj;x64

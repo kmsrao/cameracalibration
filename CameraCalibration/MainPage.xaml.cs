@@ -293,7 +293,10 @@ namespace CameraCalibration
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            await InitializeCameraAsync();
+            // await InitializeCameraAsync();
+            ImageProcess imageProcess = new ImageProcess("C:\\colorImage.jpg");
+            imageProcess.GetHSV();
+            
         }
     }
 }
